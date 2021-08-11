@@ -1,6 +1,6 @@
 export interface SearchResult {
   totalItems: number | null;
-  nextIndex: number | null;
+  nextIndex: number;
   items: Array<{ id: string | null }>;
 }
 

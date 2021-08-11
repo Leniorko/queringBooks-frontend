@@ -8,7 +8,16 @@
       placeholder="Enter search query."
       class="search__query"
     />
-    <button type="submit" class="search__submit">Search</button>
+    <button class="search__submit" (click)="performSearch(searchQuery)">
+      Search
+    </button>
   </div>
-  <div class="search__results"></div>
+  <div class="search__results">
+    <ul class="search__results-list">
+      <li *ngFor="let book of searchedBooks" class="search__results-item">
+        {{ book.id }}
+      </li>
+    </ul>
+    <button (click)="loadMore()" *ngIf="loadMoreQuery !== ''">Load more</button>
+  </div>
 </div>
