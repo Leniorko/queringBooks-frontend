@@ -1,7 +1,7 @@
 # QueringBooksFrontend
 ---
 
-Wanted to play with angular. Simple fetch list of books and display it.
+Wanted to play with angular. Simple fetch list of books and display it. [Backend part](https://github.com/Leniorko/queringBooks-backend)
 
 ---
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.4.
